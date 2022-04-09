@@ -74,5 +74,9 @@ option {
 img {
     grid-column: span 2;
     max-width: 300px;
+}
 
+.container:hover img {
+    transition: all .4s ease;
+    filter: brightness(85%);
 }
