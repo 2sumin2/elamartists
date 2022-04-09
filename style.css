@@ -21,6 +21,31 @@ body {
     gap: 5px;
 }
 
+.selectBox {
+    padding: 0 5px 0 10px;
+    background-color: white;
+    display: inline-flex;
+    width: 100%;
+    justify-items: stretch;
+    align-items: center;
+}
+
+select {
+    width: 100%;
+    border: 0;
+    align-items: center;
+    padding-top: 3px;
+
+}
+
+button {
+    border: 0;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: underline;
+
+}
 
 option {
     font-weight: 500;
