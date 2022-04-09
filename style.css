@@ -55,6 +55,7 @@ option {
     background-color: white;
     padding: 15px;
     display: flex;
+    height: 300px;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
