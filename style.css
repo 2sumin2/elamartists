@@ -59,3 +59,20 @@ option {
     justify-content: space-between;
     align-items: center;
 }
+
+.item {
+    width: maxcontent;
+    font-weight: 500;
+}
+
+.innerContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    grid-column: span 2;
+    max-width: 300px;
+
+}
